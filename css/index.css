@@ -1,3 +1,7 @@
+body{
+    position: relative;
+}
+
 .header {
     height: 70px;
     display: flex;
@@ -40,4 +44,70 @@
     margin-bottom: 52px;
     color : #515151;
     letter-spacing: -1px;
+}
+
+/*모바일 사이드바*/
+
+
+.sidebar.active{
+    width: 100%;
+    height: 100%;
+}
+.sidebar_box{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 70px 35px 0;
+}
+.sidebar_btn_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reser_btn{
+    font-size: 24px;
+    padding: 40px 0 50px;
+    color: #515151;
+}
+
+.sidebar_menu li a{
+    color: #515151;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.sidebar_menu li a::after{
+    content: "";
+    position: absolute;
+    left: -8px; 
+    bottom: 0; 
+    width: calc(100% + 20px); /* a보다 양쪽으로 8px씩 더 길게 */
+    height: 1px;
+    background-color: #E4E4E4;
+    cursor: none;
+}
+.sidebar_menu li a.menu{
+    color: #515151;
+    font-size: 20px;
+}
+
+.sidebar_menu .sub_menu li{
+    margin: 10px 0 ;
+    cursor: pointer;
+}
+
+.sidebar_menu .sub_menu li:hover{
+    color: #E40177;
+}
+.logo_box {
+    display: flex;
+    margin-top: 40px;
+}
+.logo_box li{
+    margin-right: 35px;
 }
