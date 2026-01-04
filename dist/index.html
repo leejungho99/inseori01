@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>인서리공원</title>
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/index.css" />
-</head>
+    <link rel="stylesheet" href="/reset.dc9ff4e8.css">
+    <link rel="stylesheet" href="/css.967bad95.css">
+<script src="/reset.dc9ff4e8.js"></script><script src="/css.967bad95.js"></script></head>
 <body>
     <header class="header">
         <a href="/" class="m_logo">
-            <img src="./images/common/m_logo.png" alt="mobile logo" class="m_logo_img"/>
+            <img src="/m_logo.36a87445.png" alt="mobile logo" class="m_logo_img">
         </a>
         <nav>
             <a href="/" class="nav">
-                <img src="./images/common/ham.png" alt="ham logo" class="m_nav_img"/>
+                <img src="/ham.6b6c45f6.png" alt="ham logo" class="m_nav_img">
             </a>
         </nav>
     </header>
     <section>
         <a href="/" class="m_banner">
-            <img src="./images/main/main_banner1.jpg" alt="mobile banner1" class="m_banner_img"/>
+            <img src="/main_banner1.c9499ac4.jpg" alt="mobile banner1" class="m_banner_img">
         </a>
     </section>
     <section>
@@ -34,7 +34,7 @@
     </section>
     <section>
         <a href="/" class="m_contnet_banner">
-            <img src="./images/main/content_banner.jpg" alt="content banner1" class="m_content_img"/>
+            <img src="/content_banner.6970f1ed.jpg" alt="content banner1" class="m_content_img">
         </a>
     </section>
     <aside class="sidebar">
@@ -60,11 +60,11 @@
             <ul class="logo_box">
                 <li>
                     <a href="/" class="menu class">
-                      <img src="./images/common/insta_logo.png" alt="content banner1" class="m_content_img"/>
+                      <img src="/insta_logo.b3334de1.png" alt="content banner1" class="m_content_img">
                     </a>
                 </li>
                 <li><a href="/" class="menu artshop">
-                    <img src="./images/common/kakao_logo.png" alt="content banner1" class="m_content_img"/>
+                    <img src="/kakao_logo.5d65347a.png" alt="content banner1" class="m_content_img">
                 </a>
                 </li> 
             </ul>
@@ -74,20 +74,14 @@
 
     </footer>
 </body>
-<script defer>
-    const navBtn = document.querySelector('.nav');
-    const sideBar = document.querySelector('.sidebar');
-    const backBtn = document.querySelector('.back_btn');
-
-    navBtn.addEventListener('click', (e) =>{
-        e.preventDefault() // 페이지이동 막기
-        sideBar.classList.toggle('active'); // 사이드바 생성
-    })
-
-    backBtn.addEventListener('click', ()=>{
-        sideBar.classList.toggle('active');
-    })
-    
-
-</script>
+<script defer="">var navBtn = document.querySelector('.nav');
+var sideBar = document.querySelector('.sidebar');
+var backBtn = document.querySelector('.back_btn');
+navBtn.addEventListener('click', function (e) {
+  e.preventDefault(); // 페이지이동 막기
+  sideBar.classList.toggle('active'); // 사이드바 생성
+});
+backBtn.addEventListener('click', function () {
+  sideBar.classList.toggle('active');
+});</script>
 </html>
